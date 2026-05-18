@@ -1,0 +1,82 @@
+body{
+    background-color:#eebdd7;  
+}
+nav{
+    display: flex;   
+    justify-content: space-around;
+    padding-top: 10px; 
+}
+header{
+   border-bottom: 2px solid hsl(330, 7%, 48%);
+}
+.ch2{
+    display: flex;
+    gap:60px;
+    font-size:20px;
+    padding-top:20px;
+}
+a{
+     text-decoration: none;
+}
+section,footer{
+    justify-items: center;
+}
+#Home h1{
+    color: #889438;
+}
+#Home h3{
+    color: rgb(21, 69, 25);
+}
+#About{
+    padding: 60px;
+    font-size: 18px;
+}
+section h1{
+    color: rgb(54, 37, 103);
+}
+.skill-child{
+    display: grid;
+    grid-template-rows:repeat(1,1fr);
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+}
+.sch{
+    border-radius: 10px;
+    background-color: rgba(161, 246, 160, 0.421);
+    padding: 50px;
+}
+ul li{
+    font-size: 20px;
+}
+footer{
+    border-top: 2px solid rgb(73, 72, 73);
+    padding: 20px;
+    gap:20px;
+}
+.foot {
+    display: flex;
+    gap:20px;
+    padding-bottom:10px;
+}
+table{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(203, 187, 253);
+    margin-bottom: 50px;
+}
+td{
+    padding:10px;
+}
+.edu{
+    gap:10px;
+    display: flex;
+}
+.ed{
+     background-color: rgb(142, 172, 199);
+     border-radius: 5px;
+     padding: 50px;
+     gap:30px;
+}
+.ed h3{
+    color: rgb(11, 11, 81);
+}
